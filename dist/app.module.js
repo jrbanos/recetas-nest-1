@@ -16,7 +16,7 @@ let AppModule = class AppModule {
 AppModule = __decorate([
     common_1.Module({
         imports: [receta_module_1.RecetaModule,
-            mongoose_1.MongooseModule.forRoot('mongodb://localhost/recetas_v3')],
+            mongoose_1.MongooseModule.forRoot('mongodb://jbatalaya.site:27021/recetas_v3')],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })
